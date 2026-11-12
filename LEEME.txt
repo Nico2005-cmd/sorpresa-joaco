@@ -1,0 +1,22 @@
+# Página para Joaco
+
+## Cómo abrirla
+1. Descomprime `pagina-joaco-corregida.zip`.
+2. Abre la carpeta `pagina-joaco` en Visual Studio Code.
+3. Ejecuta `index.html` con Live Server (recomendado), o súbela a un hosting estático.
+
+## Música
+La canción ya está incluida correctamente en `public/audio.mp3`.
+La página intenta reproducirla al cargar. Si el navegador bloquea el autoplay con sonido, comenzará al pulsar **Entrar a esta aventura**. Es una restricción de Chrome/Opera y otros navegadores; una página web no puede obligarlos a reproducir sonido antes de una interacción.
+
+## Fondo y fotos
+- `public/fotos/anime-bg.jpg`: imagen de Demon Slayer usada como fondo.
+- `foto1.jpg` a `foto4.jpg`: las cuatro fotos de ustedes, conservadas en el cubo y la galería.
+
+Para cambiar las fotos, reemplaza cada archivo manteniendo su nombre.
+
+
+## Novedades de esta versión
+- Se reemplazó la galería repetida por una misión interactiva con tres objetivos.
+- Al completar los tres objetivos aparece el mensaje de misión completada.
+- Se agregó un pergamino que Joaco puede abrir para descubrir un mensaje secreto.

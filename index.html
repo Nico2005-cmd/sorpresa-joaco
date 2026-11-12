@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101018">
+  <meta name="description" content="Un pequeño agradecimiento por una gran amistad.">
+  <title>Para Joaco | Un pequeño cazador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="embers" aria-hidden="true"></div>
+
+  <main>
+    <section class="welcome screen active" id="welcome">
+      <div class="wisteria wisteria-left">✿　✿　✿</div>
+      <div class="welcome-content">
+        <p class="eyebrow">UNA PEQUEÑA SORPRESA PARA</p>
+        <h1>JOACO<span>。</span></h1>
+        <div class="blade-line"><span></span><b>鬼滅の刃</b><span></span></div>
+        <p class="welcome-copy">No hace falta blandir una espada<br>para dejar una buena huella.</p>
+        <button class="primary-btn" id="enterBtn">
+          <span>Entrar a esta aventura</span><i>➜</i>
+        </button>
+        <p class="tap-note">PREPARA TUS SENTIDOS, CAZADOR</p>
+      </div>
+      <div class="sun-disc"></div>
+      <div class="wisteria wisteria-right">✿　✿　✿</div>
+      <div class="vertical-kanji">友情 · 感謝 · 絆</div>
+    </section>
+
+    <section class="experience screen" id="experience" aria-hidden="true">
+      <header class="topbar">
+        <a class="brand" href="#welcome" aria-label="Volver al inicio">鬼 <span>JOACO</span></a>
+        <div class="topbar-label">UN RECUERDO DE AMISTAD</div>
+        <button class="sound-btn" id="soundBtn" aria-label="Activar o pausar música">♫ <span>MÚSICA</span></button>
+      </header>
+
+      <section class="intro section-wrap">
+        <p class="eyebrow">ARCHIVO DE UN CAZADOR</p>
+        <h2>Una amistad que<br><em>vale la pena cuidar.</em></h2>
+        <p class="intro-text">Cada cazador tiene su propio camino. Y en el mío, me alegra haber encontrado a alguien como tú.</p>
+      </section>
+
+      <section class="cube-section section-wrap">
+        <div class="section-kicker"><span>01</span> RECUERDOS EN MOVIMIENTO</div>
+        <div class="cube-stage">
+          <div class="cube-shadow"></div>
+          <div class="cube" id="photoCube">
+            <div class="cube-face front"><img src="public/fotos/foto1.jpg" alt="Foto de Joaco, recuerdo 1"></div>
+            <div class="cube-face back"><img src="public/fotos/foto2.jpg" alt="Foto de Joaco, recuerdo 2"></div>
+            <div class="cube-face right"><img src="public/fotos/foto3.jpg" alt="Foto de Joaco, recuerdo 3"></div>
+            <div class="cube-face left"><img src="public/fotos/foto4.jpg" alt="Foto de Joaco, recuerdo 4"></div>
+            <div class="cube-face top"><span>絆</span></div>
+            <div class="cube-face bottom"><span>友</span></div>
+          </div>
+          <div class="cube-orbit orbit-a"></div>
+          <div class="cube-orbit orbit-b"></div>
+        </div>
+        <p class="cube-hint">Unos cuantos recuerdos que merecen quedarse.</p>
+      </section>
+
+      <section class="message-section section-wrap">
+        <div class="section-kicker"><span>02</span> UNAS PALABRAS PARA TI</div>
+        <article class="message-card">
+          <div class="card-mark">「</div>
+          <p class="message-lead">Joaco, quizá no te lo diga muy seguido, pero...</p>
+          <h3>¡Me alegra mucho<br>tener tu amistad!</h3>
+          <p>Quiero agradecerte por tu amistad y por la buena energía que transmites. Aunque todavía seas un niñito, tienes cualidades que de verdad admiro. A veces, sin darte cuenta, me das un buen ejemplo y me recuerdas que no hace falta tener muchos años para demostrar buenos valores, ser respetuoso y tener un gran corazón.</p>
+          <p>Me gusta poder compartir momentos contigo, conversar, reírnos y ver esa forma tan tuya de ser. Espero que nunca pierdas esa alegría ni las cosas buenas que te hacen especial.</p>
+          <p class="message-end">Gracias por tu amistad, pequeño cazador.</p>
+          <div class="card-mark closing">」</div>
+        </article>
+      </section>
+
+      <section class="mission-section section-wrap" id="mission">
+        <div class="section-kicker"><span>03</span> MISIÓN ESPECIAL · CUERPO DE EXTERMINIO</div>
+        <div class="mission-heading">
+          <p class="eyebrow">MENSAJE CONFIDENCIAL</p>
+          <h2>Una misión para<br><em>el cazador Joaco.</em></h2>
+          <p class="mission-intro">Todo gran cazador tiene una misión. La tuya no requiere una espada, sino conservar esas cosas buenas que te hacen ser tú.</p>
+        </div>
+        <div class="mission-scroll">
+          <div class="scroll-top">巻物 · ORDEN OFICIAL</div>
+          <h3>Tu entrenamiento consiste en:</h3>
+          <div class="mission-tasks">
+            <button class="mission-task" type="button" data-task="0">
+              <span class="task-number">01</span>
+              <span class="task-copy"><strong>Proteger tu alegría</strong><small>Que nunca se apague esa sonrisa que contagia a los demás.</small></span>
+              <span class="task-check">＋</span>
+            </button>
+            <button class="mission-task" type="button" data-task="1">
+              <span class="task-number">02</span>
+              <span class="task-copy"><strong>Seguir aprendiendo</strong><small>Cada día es una oportunidad para crecer y ser mejor.</small></span>
+              <span class="task-check">＋</span>
+            </button>
+            <button class="mission-task" type="button" data-task="2">
+              <span class="task-number">03</span>
+              <span class="task-copy"><strong>Cuidar a quienes te aprecian</strong><small>Valora a las personas que caminan a tu lado.</small></span>
+              <span class="task-check">＋</span>
+            </button>
+          </div>
+          <div class="mission-progress">
+            <div class="progress-label"><span>ENTRENAMIENTO</span><strong id="missionCount">0 / 3</strong></div>
+            <div class="progress-track"><span id="missionProgress"></span></div>
+          </div>
+          <p class="mission-status" id="missionStatus">Toca cada objetivo para marcarlo como completado.</p>
+          <div class="mission-complete" id="missionComplete" hidden>
+            <span class="complete-symbol">✦</span>
+            <strong>¡MISIÓN COMPLETADA!</strong>
+            <p>El rango más importante no se lleva en el uniforme, sino en el corazón.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="secret-section section-wrap" id="secret">
+        <div class="section-kicker"><span>04</span> UN ÚLTIMO SECRETO</div>
+        <p class="eyebrow">SOLO PARA JOACO</p>
+        <h2>Hay algo más<br><em>que quiero decirte...</em></h2>
+        <p class="secret-intro">Los mejores recuerdos no siempre hacen ruido. Algunos se quedan guardados en el corazón.</p>
+        <button class="secret-button" id="secretBtn" type="button" aria-expanded="false">
+          <span class="secret-seal">絆</span>
+          <span>DESCUBRIR MENSAJE</span>
+          <small>Pulsa para abrir el pergamino</small>
+        </button>
+        <article class="secret-message" id="secretMessage" hidden>
+          <div class="card-mark">「</div>
+          <h3>¡Sigue siendo un gran amigo de Jehová, Joaco!</h3>
+          <p>Quiero animarte a que sigas acercándote a Jehová y sirviéndole con las mismas ganas y el cariño que has demostrado hasta ahora. No dejes que nada apague tu entusiasmo por aprender de él, asistir a las reuniones y poner en práctica lo que enseña. Habrá días fáciles y otros no tanto, pero recuerda que Jehová valora mucho tus esfuerzos y que nunca estás solo.
+La Biblia dice en 1 Timoteo 4:12: «Que nadie menosprecie tu juventud. Más bien, sé un ejemplo para los fieles en el hablar, la conducta, el amor, la fe y la castidad».
+Me encanta ese consejo porque nos recuerda que, sin importar la edad, todos podemos ser un buen ejemplo.
+Sigue creciendo, conserva ese buen corazón y nunca sueltes la mano de Jehová. ¡Me alegra mucho tener tu amistad y deseo de corazón que sigas disfrutando de servirle!</p>
+          <p class="message-end">Un amigo también puede ser una gran fuerza. ¡Sigue brillando, pequeño cazador!</p>
+          <div class="card-mark closing">」</div>
+        </article>
+      </section>
+
+      <section class="final-section">
+        <div class="final-symbol">火</div>
+        <p class="eyebrow">QUE NUNCA SE APAGUE ESA LLAMA</p>
+        <h2>Sigue siendo<br><em>un gran chico, Joaco.</em></h2>
+        <p>No necesitas ser un Pilar para dejar una buena huella en alguien.</p>
+        <div class="final-seal">CON APRECIO Y AMISTAD <span>✦</span></div>
+        <button class="back-top" id="backTop">VOLVER AL INICIO ↑</button>
+      </section>
+      <footer>HECHO CON APRECIO · PARA JOACO <span>鬼滅の刃</span></footer>
+    </section>
+  </main>
+
+  <audio id="bgMusic" src="public/audio.mp3" loop preload="auto" playsinline></audio>
+  <script src="script.js"></script>
+</body>
+</html>
